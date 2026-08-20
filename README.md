@@ -4,17 +4,15 @@ Code associated with the study **Selective brain network stimulation by frequenc
 
 ## Overview
 
-This repository implements a forced Kuramoto model with transmission delays to
-simulate frequency entrainment in structural brain networks. It also includes
-scripts for analyzing the effect of stimulation onset phase, stimulation
-amplitude, and the spatial agreement between simulated and EEG results.
+This repository implements a forced Kuramoto model with delays to
+simulate frequency entrainment in structural brain networks. 
 
 The model is described by:
 
 $$
 \dot{\theta}_n(t)=\omega_n
 +A\delta_{n,E}\sin(2\pi f t-\theta_n(t))
-+K\sum_{p=1}^{N}c_{np}
++\frac{K}{N}\sum_{p=1}^{N}c_{np}
 \sin\left[\theta_p(t-\tau_{np})-\theta_n(t)\right].
 $$
 
