@@ -125,7 +125,7 @@ class Kuramoto:
         
         self.natfreqs=self.initializeNatFreq(natfreqs) # This initialize the natfreq
         self.ω = 2*np.pi*self.natfreqs
-        self.global_coupling=self.K/self.n_nodes
+        self.global_coupling=self.K
         
         self.act_mat=None # When the simulation run, this value is updated with the dynamics. 
     
@@ -300,8 +300,7 @@ class Kuramoto:
         ----------
         K : float
             Scaling factor for the structural connectivity matrix **C**.
-            The value using this function is scaled by the number of nodes
-            then **K** =K/N.
+            
 
         Returns
         -------
@@ -310,7 +309,7 @@ class Kuramoto:
         """
         
         self.K=K
-        self.global_coupling=self.K/self.n_nodes
+        self.global_coupling=self.K
 
     def param(self,y,arg):
         """
