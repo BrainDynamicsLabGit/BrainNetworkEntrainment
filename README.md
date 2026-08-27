@@ -12,7 +12,7 @@ The model is described by:
 $$
 \dot{\theta}_n(t)=\omega_n
 +A\delta_{n,E}\sin(2\pi f t-\theta_n(t))
-+\frac{K}{N}\sum_{p=1}^{N}c_{np}
++\{K}\sum_{p=1}^{N}c_{np}
 \sin\left[\theta_p(t-\tau_{np})-\theta_n(t)\right].
 $$
 
