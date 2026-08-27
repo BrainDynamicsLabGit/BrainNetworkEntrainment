@@ -41,7 +41,7 @@ np.random.seed(SEED)
 model = Kuramoto(
     struct_connectivity=C,
     delays_matrix=D,
-    K=K * N_NODES,
+    K=K,
     dt=DT,
     simulation_period=SIMULATION_PERIOD,
     StimTstart=STIM_TSTART,
