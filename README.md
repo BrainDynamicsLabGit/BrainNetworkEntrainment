@@ -56,7 +56,7 @@ The example is prepared for the AAL90 parcellation.
 From the main repository folder, run:
 
 ```bash
-python examples/ejecutar_simulacion_ejemplo.py
+python run_simulation.py
 ```
 
 The example simulates a network of 90 nodes, uses a natural frequency of 40 Hz,
