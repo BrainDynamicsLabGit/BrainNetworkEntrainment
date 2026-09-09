@@ -409,7 +409,7 @@ class Kuramoto:
         Parameters
         ----------
         K : float
-            Global coupling parameter (it will be normalized by the number of nodes).
+            Global coupling parameter 
 
         Returns
         -------
