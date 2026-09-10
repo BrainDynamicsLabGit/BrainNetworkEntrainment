@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Reproduce los heatmaps de activación a partir del Excel.
 
-Coloque este archivo y Activacion_heatmaps_desde_figura.xlsx en la misma carpeta.
+Coloque este archivo y Activacion_heatmaps_desde_npy.xlsx en la misma carpeta.
 Del Excel se lee únicamente la hoja 'Activacion'.
 """
 
