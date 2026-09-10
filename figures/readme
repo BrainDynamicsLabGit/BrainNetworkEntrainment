@@ -5,10 +5,10 @@ The folders in the "figures" directory correspond to the paper figures as follow
 | Figure 1 | Spectral_diversity                    |
 | Figure 2 | selective_network_entrainment         |
 | Figure 3 | Network_entrainment_different_OP      |
-| Figure 4 | Entrainment_across_sensory_cortices   |
+| Figure 4 | Entrainment_across_sensory _cortices   |
 | Figure 5 | eeg_comparison                        |
 
 
 
-The "onset_phase" and "amplitude_analisys" folders contain additional analyses described in the paper’s supplementary material.
+The "onset_phase" and "amplitude_analysis" folders contain additional analyses described in the paper’s supplementary material.
 
