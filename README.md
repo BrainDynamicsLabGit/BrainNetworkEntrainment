@@ -12,7 +12,7 @@ The model is described by:
 $$
 \dot{\theta}_n(t)=\omega_n
 +A\delta_{n,E}\sin(2\pi f t-\theta_n(t))
-+\{K}\sum_{p=1}^{N}c_{np}
++K\sum_{p=1}^{N}c_{np}
 \sin\left[\theta_p(t-\tau_{np})-\theta_n(t)\right].
 $$
 
@@ -33,11 +33,13 @@ delay between nodes.
 - JiTCDDE
 - SymEngine
 - Nilearn
+- seaborn
+- statsmodels
 
 Install the dependencies with:
 
 ```bash
-pip install numpy scipy pandas matplotlib openpyxl tqdm jitcdde symengine nilearn
+pip install numpy scipy pandas matplotlib openpyxl tqdm jitcdde symengine nilearn seaborn statsmodels
 ```
 
 ## Input data
