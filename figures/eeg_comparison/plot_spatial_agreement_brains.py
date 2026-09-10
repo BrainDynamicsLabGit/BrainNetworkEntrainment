@@ -15,7 +15,7 @@ output_folder = folder / "brain_figures"
 output_folder.mkdir(exist_ok=True)
 
 best = pd.read_excel(excel_file, sheet_name="mejor_amplitud")
-regions = pd.read_excel(excel_file, sheet_name="regiones_84")
+regions = pd.read_excel(excel_file, sheet_name="regiones")
 
 
 # Atlas AAL de Nilearn.
@@ -44,7 +44,7 @@ def atlas_name(region):
         name for name in atlas_labels
         if not hemisphere or name.endswith(hemisphere)
     ]
-    match = difflib.get_close_matches(region, candidates, n=1, cutoff=0.75)
+    match = difflib.get_close_matches(region, candidates, n=1, cutoff=0.8)
     return match[0] if match else None
 
 
